@@ -9724,6 +9724,7 @@ menu() {
     echoContent green "描述：八合一共存脚本\c"
     showInstallStatus
     checkWgetShowProgress
+    
     if [[ -n "${coreInstallType}" ]]; then
         echoContent yellow "1.重新安装"
     else
